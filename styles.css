@@ -310,3 +310,17 @@ footer {
   float: right;
   width: 25%;
 }
+
+/* Style rule for skip navigation link */
+
+.skip {
+  position: absolute;
+  left: -999px;
+}
+
+.skip:focus {
+  position: static;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
