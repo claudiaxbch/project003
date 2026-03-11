@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wild Rescues: FAQs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <nav class="mobile-tablet">
+      <div class="menu" onclick="menu()">☰ 🐾</div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="partnership.html">Partnership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav class="desktop">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="partnership.html">Partnership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="questions">
+        <p onclick="showAnswer(1)">
+          How can I determine if a baby animal is an orphan?
+        </p>
+        <p onclick="showAnswer(2)">How can I tell if an animal has rabies?</p>
+        <p onclick="showAnswer(3)">
+          I found a baby bird that fell from its nest. Will the parents abandon
+          it?
+        </p>
+        <p onclick="showAnswer(4)">How can I volunteer?</p>
+      </div>
+
+      <div id="answer">
+        <h3>Answer:</h3>
+        <p id="answer-text"></p>
+      </div>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p>
+          <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a>
+        </p>
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="scripts/facebook-logo.png" alt="Facebook logo" />
+        </a>
+
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="scripts/twitter-logo.png" alt="Twitter logo" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
